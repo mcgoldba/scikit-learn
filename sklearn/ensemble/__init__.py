@@ -10,6 +10,7 @@ from ._forest import RandomForestRegressor
 from ._forest import RandomTreesEmbedding
 from ._forest import ExtraTreesClassifier
 from ._forest import ExtraTreesRegressor
+from ._forest import RandomForestTensorBasis
 from ._bagging import BaggingClassifier
 from ._bagging import BaggingRegressor
 from ._iforest import IsolationForest
@@ -33,7 +34,8 @@ __all__ = ["BaseEnsemble",
            "RandomForestClassifier", "RandomForestRegressor",
            "RandomTreesEmbedding", "ExtraTreesClassifier",
            "ExtraTreesRegressor", "BaggingClassifier",
-           "BaggingRegressor", "IsolationForest", "GradientBoostingClassifier",
+           "RandomForestTensorBasis", "BaggingRegressor",
+           "IsolationForest", "GradientBoostingClassifier",
            "GradientBoostingRegressor", "AdaBoostClassifier",
            "AdaBoostRegressor", "VotingClassifier", "VotingRegressor",
            "StackingClassifier", "StackingRegressor",
